@@ -37,3 +37,21 @@ console.log(arrray3); // this the best way to merege array insted of using push 
 
 const arrray4 = [...arrray1,...arrray2];
 console.log(arrray4);
+
+// Array method for data scraping 
+//to check if its an array
+
+Array.isArray("vansh"); //returns false but we can convert this into an arra using
+console.log(Array.from("Vansh")); // this returns it as an individual value
+//or i can just use of
+
+console.log(Array.of("Vansh")); // this return it as a single value //
+// we can take multiple input and make an array out of them
+
+const num1 = 34;
+const num2 = 35;
+const num3 = 36;
+const num4 = 37;
+
+const num_Array = Array.of(num1,num2,num3,num4);
+console.log(num_Array);
